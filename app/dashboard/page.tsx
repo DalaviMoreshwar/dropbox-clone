@@ -1,5 +1,7 @@
+import DropzoneComponent from "@/components/DropzoneComponent";
+
 function Dashboard() {
-  return <div>Dashboard</div>;
+  return <DropzoneComponent />;
 }
 
 export default Dashboard;
