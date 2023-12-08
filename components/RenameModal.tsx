@@ -52,7 +52,7 @@ export function RenameModal() {
           <DialogTitle className="pb-2">Rename the file</DialogTitle>
           <Input
             id="link"
-            defaultValue={filename}
+            defaultValue={filename!}
             onChange={(e) => setInput(e.target.value)}
             onKeyDownCapture={(e) => {
               if (e.key === "Enter") {
