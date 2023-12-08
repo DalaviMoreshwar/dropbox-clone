@@ -51,7 +51,7 @@ export const TableWrapper = ({
         </Button>
         <div className="border rounded-lg">
           <div className="border-b h-12">
-            {skeletonFiles.map((file) => (
+            {skeletonFiles.map((file: FileType) => (
               <div
                 key={file.id}
                 className="flex items-center space-x-4 p-5 w-full"
