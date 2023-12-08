@@ -13,7 +13,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 export const TableWrapper = ({
   skeletonFiles,
 }: {
-  skeletopFile: FileType[];
+  skeletonFiles: FileType[];
 }) => {
   const { user } = useUser();
   const [initialFiles, setInitialFiles] = useState<FileType[]>([]);
