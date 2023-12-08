@@ -6,7 +6,6 @@ export default function Home() {
     <main className="">
       <h1>Main page</h1>
       <Link href={"/dashboard"}>Dashboard</Link>
-      <Button variant={"outline"}>Let`s try for free</Button>
     </main>
   );
 }
