@@ -7,24 +7,6 @@ This project is a Dropbox clone built using modern web technologies. It leverage
 <p align="center" width="100%">
   <img width="95%" src="./public/logos/screenshot.png" alt="logo"/>
 </p>
-## Technologies
-
-<p align="center" width="100%" style="background-size: cover;">
-  <img width="25%" src="./public/logos/nextjs.png" alt="logo"/>
-  <img width="25%" src="./public/logos/tailwindcss.png" alt="logo"/>
-  <img width="25%" src="./public/logos/shadcn-ui.png" alt="logo"/>
-  <img width="25%" src="./public/logos/clerk.jpg" alt="logo"/>
-  <img width="25%" src="./public/logos/vercel.png" alt="logo"/>
-  <img width="25%" src="./public/logos/cloud-storage-firebase.png" alt="logo"/>
-</p>
-
-## Architecture
-
-- **Frontend**: Built with Next.js, Tailwind CSS and Shaden UI framework and library, responsible for user interface and interaction.
-- **Backend**: Built with Next.js API routes, handling data retrieval and manipulation.
-- **Authentication**: Managed by Clerk, providing secure user login and authorization.
-- **Storage**: Firebase Storage stores uploaded files securely and reliably.
-- **Deployment**: Vercel delivers the application globally with fast and efficient deployment processes.
 
 ## Features
 
@@ -57,6 +39,25 @@ This project is a Dropbox clone built using modern web technologies. It leverage
 ✨ How to use TypeScript to reduce the overall number of Bugs and Errors
 
 ✨ How to deploy the final build on Vercel!
+
+## Technologies
+
+<p align="center" width="100%" style="background-size: cover;">
+  <img width="25%" src="./public/logos/nextjs.png" alt="logo"/>
+  <img width="25%" src="./public/logos/tailwindcss.png" alt="logo"/>
+  <img width="25%" src="./public/logos/shadcn-ui.png" alt="logo"/>
+  <img width="25%" src="./public/logos/clerk.jpg" alt="logo"/>
+  <img width="25%" src="./public/logos/vercel.png" alt="logo"/>
+  <img width="25%" src="./public/logos/cloud-storage-firebase.png" alt="logo"/>
+</p>
+
+## Architecture
+
+- **Frontend**: Built with Next.js, Tailwind CSS and Shaden UI framework and library, responsible for user interface and interaction.
+- **Backend**: Built with Next.js API routes, handling data retrieval and manipulation.
+- **Authentication**: Managed by Clerk, providing secure user login and authorization.
+- **Storage**: Firebase Storage stores uploaded files securely and reliably.
+- **Deployment**: Vercel delivers the application globally with fast and efficient deployment processes.
 
 ## Technical Details
 
