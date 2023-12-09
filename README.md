@@ -1,4 +1,61 @@
-# Dropbox Clone
+# Technical Documentation
+
+## <img src="./public/box.png" alt="logo" style="width: 25px;"/> Dropbox Clone Project
+
+## Technologies
+
+<p align="center" width="100%" style="background-size: cover;">
+  <img width="25%" src="./public/logos/nextjs.png" alt="logo"/>
+  <img width="25%" src="./public/logos/tailwindcss.png" alt="logo"/>
+  <img width="25%" src="./public/logos/shadcn-ui.png" alt="logo"/>
+  <img width="25%" src="./public/logos/clerk.jpg" alt="logo"/>
+  <img width="25%" src="./public/logos/vercel.png" alt="logo"/>
+  <img width="25%" src="./public/logos/cloud-storage-firebase.png" alt="logo"/>
+</p>
+
+## Description
+
+## Features
+
+👉 How to upload all File types to Firebase storage just like the real Dropbox!
+
+👉 How to integrate full CRUD Functionality for the files
+
+👉 Create a Beautiful UI & UX for our Dropbox clone using the highly Popular Shadcn!
+
+👉 Learn how to use NextAuth Middleware to protect unauthorised access
+
+👉 How to build a Login and Logout Authentication flow using Clerk Authentication!
+
+👉 How to use Loaders whilst data is being fetched!
+
+👉 Learn to implement a file sorter feature to sort all files based on various properties!
+
+👉 Learn to implement a table view for all files with File Metadata display!
+
+👉 How to leverage Global State Management with Zustand!
+
+👉 How to build a beautiful UI design with Tailwind CSS!
+
+👉 Learn how to download any uploaded file straight to your device!
+
+👉 Learn how to implement the React DnD Library to Upload files via Drag and Drop!
+
+👉 Learn how to implement Dark Mode toggling to update the UI based on user preference!
+
+👉 How to use TypeScript to reduce the overall number of Bugs and Errors
+
+👉 How to deploy the final build on Vercel!
+
+## Technical Details
+
+## Installation Setup
+
+## Usage
+
+## Additional Notes
+
+##
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
