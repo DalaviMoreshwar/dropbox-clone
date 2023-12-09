@@ -10,16 +10,14 @@ export default function Home() {
           <h1 className="text-5xl font-bold">
             Welcome to Dropbox.
             <br />
+            <br />
             Storing everything for you and your business needs. All in one place
           </h1>
 
           <p className="py-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            accusamus quod libero, iste deleniti porro. Ad, tenetur ipsum
-            doloremque, voluptas magnam odit dolore commodi nulla maiores ipsam
-            ea, reprehenderit repudiandae? Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Modi, molestias. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Nesciunt, eius?
+            Collaborate seamlessly and deliver work faster from anywhere with
+            Dropbox. Securely store your content, edit PDFs, share videos, sign
+            documents and track file engagement—without leaving Dropbox.
           </p>
 
           <Link
@@ -40,12 +38,15 @@ export default function Home() {
           </video>
         </div>
       </div>
-      <p className="text-center font-bold text-xl pt-5">Disclaimer</p>
+      <p className="text-center font-bold text-5xl pt-5">
+        Go from idea to done with Dropbox
+      </p>
       <p className="text-center font-light p-2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-        tempora ratione est temporibus dolores labore ut sit exercitationem
-        eaque officiis? Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Explicabo culpa beatae cupiditate quidem ipsa ducimus.
+        Save time, collaborate seamlessly, and deliver work faster on a platform
+        that works with your existing tools. Dropbox helps you finalize video,
+        image, and audio projects without the hassle. Plus, edit PDFs, share
+        trackable document links, and get agreements signed quickly—all without
+        leaving Dropbox.
       </p>
     </main>
   );
