@@ -1,6 +1,4 @@
-# Technical Documentation
-
-## <img src="./public/box.png" alt="logo" style="width: 25px;"/> Dropbox Clone Project
+# <img src="./public/box.png" alt="logo" style="width: 6%;"/> Dropbox Clone Project
 
 ## Technologies
 
@@ -13,7 +11,9 @@
   <img width="25%" src="./public/logos/cloud-storage-firebase.png" alt="logo"/>
 </p>
 
-## Description
+## Overview
+
+This project is a Dropbox clone built using modern web technologies. It leverages the power of Next.js 14 for a server-side rendered and performant experience. User authentication is handled by Clerk, offering a secure and user-friendly experience. Firebase provides reliable file storage, while Shaden UI ensures a clean and intuitive user interface. The project is hosted on Vercel, delivering global accessibility and seamless deployment.
 
 ## Features
 
