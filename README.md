@@ -1,4 +1,4 @@
-# <img src="./public/box.png" alt="logo" style="width: 6%;"/> Dropbox Clone Project
+# <img src="./public/box.png" alt="logo" style="width: 6%;"/> <span style="background: linear-gradient(135deg, #352F44, #279EFF); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">Dropbox Clone Project</span>
 
 ## Overview
 
@@ -65,29 +65,3 @@ This project is a Dropbox clone built using modern web technologies. It leverage
 ## Usage
 
 ## Additional Notes
-
-##
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## 🔐 Clerk
-
-[Clerk](https://clerk.com/docs/quickstarts/nextjs) is a tool for using authentication using google.
