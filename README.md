@@ -73,6 +73,8 @@ This project is a Dropbox clone built using modern web technologies. It leverage
 
   `CLERK_SECRET_KEY`
 
+  `NEXT_PUBLIC_FIREBASE_CONFIG`
+
 - Start the development server: `npm run dev`
 
 ## Usage
