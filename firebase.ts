@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDbU_opdrdqFfnuGHyPhn0_edMDBGT-kmk",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_CONFIG,
   authDomain: "dropbox-clone-app-a8a73.firebaseapp.com",
   projectId: "dropbox-clone-app-a8a73",
   storageBucket: "dropbox-clone-app-a8a73.appspot.com",
