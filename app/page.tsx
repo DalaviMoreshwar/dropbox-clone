@@ -48,6 +48,14 @@ export default function Home() {
         trackable document links, and get agreements signed quickly—all without
         leaving Dropbox.
       </p>
+      <p className="text-center font-bold text-slate-500">
+        <Link
+          href="https://github.com/DalaviMoreshwar/dropbox-clone?tab=readme-ov-file#readme-ov-file"
+          target="_blank"
+        >
+          Project Documentation
+        </Link>
+      </p>
     </main>
   );
 }
