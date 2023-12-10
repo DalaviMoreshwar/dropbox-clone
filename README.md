@@ -60,10 +60,36 @@ This project is a Dropbox clone built using modern web technologies. It leverage
 - **Storage**: Firebase Storage stores uploaded files securely and reliably.
 - **Deployment**: Vercel delivers the application globally with fast and efficient deployment processes.
 
-## Technical Details
-
 ## Installation Setup
+
+- Clone the project repository: `git clone https://github.com/DalaviMoreshwar/dropbox-clone.git`
+- Install dependencies: `npm install`
+- Create a Firebase account and project: [Firebase console](https://console.firebase.google.com/)
+- Configure Firebase Storage and obtain credentials
+- Create a Clerk account and obtain API keys: [Clerk dashboard](https://clerk.com/)
+- Update environment variables Clerk credentials:
+
+  `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+
+  `CLERK_SECRET_KEY`
+
+- Start the development server: `npm run dev`
 
 ## Usage
 
+- Visit the application URL: `http://localhost:3000`
+- Sign up or login using Clerk.
+- Upload files using the drag-and-drop interface.
+- Download, Rename or Delete files by clicking on the respective icons.
+
 ## Additional Notes
+
+✅ This is a basic implementation of a Dropbox clone.
+
+✅ There are many features that could be added to make the project more robust and complete.
+
+✅ The project is open-source and available for anyone to contribute to.
+
+## Conclusion
+
+This project provides a solid foundation for building a functional and scalable Dropbox clone. By leveraging modern web technologies, it offers a secure, performant, and user-friendly experience. The provided documentation helps you understand the architecture, setup, and usage of the project, allowing you to further customize and extend its functionality based on your specific needs.
