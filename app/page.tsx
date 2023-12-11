@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOpenTextIcon } from "lucide-react";
+import { ArrowRight, FileText } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
 
           <Link
             href="/dashboard"
-            className="flex items-center cursor-pointer bg-blue-500 w-fit p-5"
+            className="flex items-center cursor-pointer bg-blue-500 w-fit p-5 hover:bg-blue-600"
           >
             Try it for free <ArrowRight className="ml-10" />
           </Link>
@@ -48,13 +48,13 @@ export default function Home() {
         trackable document links, and get agreements signed quickly—all without
         leaving Dropbox.
       </p>
-      <p className="font-bold text-blue-500">
+      <p className="text-blue-500">
         <Link
           href="https://github.com/DalaviMoreshwar/dropbox-clone?tab=readme-ov-file#readme-ov-file"
           target="_blank"
-          className="flex items-center justify-center"
+          className="flex items-center justify-center border"
         >
-          Project Documentation <BookOpenTextIcon className="ml-4" />
+          Project Documentation <FileText className="ml-2" />
         </Link>
       </p>
     </main>

@@ -2,7 +2,7 @@ import { UserButton, SignedOut, SignInButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import { ThemeToggler } from "./ThemeToggler";
-import { Code2Icon } from "lucide-react";
+import { Github } from "lucide-react";
 
 function Header() {
   return (
@@ -24,9 +24,9 @@ function Header() {
         <Link
           href="https://github.com/DalaviMoreshwar/dropbox-clone.git"
           target="_blank"
-          className="p-3 bg-blue-500 flex items-center text-white"
+          className="p-3 bg-blue-500 flex items-center text-white hover:bg-blue-600"
         >
-          Source Code <Code2Icon className="ml-3" />
+          Source Code <Github className="ml-3" />
         </Link>
 
         {/* theme toggler */}
